@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<commands version="21.11">
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@text='Mensagens']" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@text='Iniciar chat']" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@class='android.widget.TextView' and ./parent::*[@id='key_pos_number_0']]" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=(//*[@class='android.widget.FrameLayout' and ./parent::*[@id='key_pos_ime_action']]/*[@class='android.widget.ImageView'])[2]" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="DeviceAction(Action)" enable="true" name="DeviceAction(Action)">
+<parameters>
+<parameter appium="true" defaultValue="Home" description="Name of action to perform" name="Action" pattern="(.+)" type="device_action"/>
+</parameters>
+</command>
+<command appium="true" appiumName="Swipe(startx, starty, endx, endy, time)" enable="true" name="DragCoordinates(X1, Y1, X2, Y2, Time)">
+<parameters>
+<parameter appium="true" defaultValue="635" description="First point X" name="X1" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="751" description="First point Y" name="Y1" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="124" description="Second point X" name="X2" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="744" description="Second point Y" name="Y2" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="217" description="Drag time (ms)" name="Time" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="Swipe(startx, starty, endx, endy, time)" enable="true" name="DragCoordinates(X1, Y1, X2, Y2, Time)">
+<parameters>
+<parameter appium="true" defaultValue="624" description="First point X" name="X1" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="751" description="First point Y" name="Y1" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="96" description="Second point X" name="X2" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="750" description="Second point Y" name="Y2" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="265" description="Drag time (ms)" name="Time" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@text='GestureCapture']" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@text='STOP']" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='saveButton']" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='testCaseName']" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@class='android.widget.TextView' and ./parent::*[@id='key_pos_0_4']]" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@class='android.widget.TextView' and ./parent::*[@id='key_pos_2_3']]" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@class='android.widget.TextView' and ./parent::*[@id='key_pos_number_0']]" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@class='android.widget.TextView' and ./parent::*[@id='key_pos_number_5']]" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@text='CONFIRM']" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='shareButton']" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="(\d+)" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="Swipe(startx, starty, endx, endy, time)" enable="true" name="DragCoordinates(X1, Y1, X2, Y2, Time)">
+<parameters>
+<parameter appium="true" defaultValue="379" description="First point X" name="X1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="1351" description="First point Y" name="Y1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="411" description="Second point X" name="X2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="535" description="Second point Y" name="Y2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="433" description="Drag time (ms)" name="Time" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="Swipe(startx, starty, endx, endy, time)" enable="true" name="DragCoordinates(X1, Y1, X2, Y2, Time)">
+<parameters>
+<parameter appium="true" defaultValue="379" description="First point X" name="X1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="1351" description="First point Y" name="Y1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="411" description="Second point X" name="X2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="535" description="Second point Y" name="Y2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="433" description="Drag time (ms)" name="Time" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="Swipe(startx, starty, endx, endy, time)" enable="true" name="DragCoordinates(X1, Y1, X2, Y2, Time)">
+<parameters>
+<parameter appium="true" defaultValue="379" description="First point X" name="X1" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="1351" description="First point Y" name="Y1" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="411" description="Second point X" name="X2" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="535" description="Second point Y" name="Y2" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="433" description="Drag time (ms)" name="Time" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="Swipe(startx, starty, endx, endy, time)" enable="true" name="DragCoordinates(X1, Y1, X2, Y2, Time)">
+<parameters>
+<parameter appium="true" defaultValue="379" description="First point X" name="X1" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="1351" description="First point Y" name="Y1" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="411" description="Second point X" name="X2" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="535" description="Second point Y" name="Y2" pattern="(\d+)" type="integer"/>
+<parameter appium="true" defaultValue="433" description="Drag time (ms)" name="Time" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement(Element)" enable="true" name="VerifyElementFound(Zone, Element, Index)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="(.+)" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@text='tc16']" description="Select Element" name="Element" pattern="(.+)" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order (=the number of times the element appears more and above the first time)" name="Index" pattern="(\d+)" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="DeviceAction(Action)" enable="true" name="DeviceAction(Action)">
+<parameters>
+<parameter appium="true" defaultValue="Home" description="Name of action to perform" name="Action" pattern="(.+)" type="device_action"/>
+</parameters>
+</command>
+</commands>
